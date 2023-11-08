@@ -24,6 +24,7 @@ Testing the webserver.
 ```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
+
 <html>
      <title> Software Companies Revenue </title>
      <body>
@@ -62,6 +63,7 @@ content = """
        </table>
     </body>
 </html>
+
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -78,7 +80,10 @@ httpd.serve_forever()
 ```
 
 ## OUTPUT:
-![Alt text](<Screenshot (5).png>)
+
+![Alt text](<Screenshot (8).png>)
+
+![Alt text](<Screenshot (6).png>)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
